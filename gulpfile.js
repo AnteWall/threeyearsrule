@@ -79,7 +79,7 @@ gulp.task('css', function () {
 gulp.task('watch', function () {
   gulp.watch('less/*.*', ['css']);
   gulp.watch('js/*.*', ['babelfy', 'browserify']);
-  gulp.watch('assets/*.*', ['move']);
+  gulp.watch('assets/**/*.*', ['move']);
 });
 
 

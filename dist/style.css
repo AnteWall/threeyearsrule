@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica';
+  font-size: '16px';
+  animation: colorchange 1s infinite;
+  transition: 1s background-color ease;
+}
+@keyframes colorchange {
+  0% {
+    background: red;
+  }
+  25% {
+    background: yellow;
+  }
+  50% {
+    background: blue;
+  }
+  75% {
+    background: green;
+  }
+  100% {
+    background: red;
+  }
+}
+.what {
+  font-size: 20pt;
+  animation: what 1s infinite;
+  transition: 200ms all ease-in-out;
+}
+@keyframes what {
+  0% {
+    transform: scale(1) rotate(0) translate3d(0, 0, 0);
+  }
+  25% {
+    font-size: 40pt;
+    transform: scale(10) rotate(300deg) translate3d(100px, 0, 0);
+  }
+  50% {
+    transform: scale(0.5) rotate(6000deg) translate3d(400px, 200px, 0);
+  }
+  75% {
+    font-size: 60pt;
+    transform: rotate3d(20deg) translate3d(200px, 300px, 0);
+  }
+  100% {
+    transform: scale(5) rotate3d(-300deg) translate3d(100px, 500px, 0);
+  }
+}
+.when {
+  font-size: 12pt;
+  animation: when 3s infinite;
+  transition: 500ms all ease-in;
+}
+@keyframes when {
+  0% {
+    color: blue;
+    transform: scale(1) rotate(500deg) translate3d(400px, 200px, 0);
+  }
+  25% {
+    font-size: 30pt;
+    transform: scale(100) rotate(-500deg) translate3d(1000px, 500px, 300px);
+  }
+  50% {
+    color: red;
+    transform: scale(0.5) rotate(300deg) translate3d(0px, 1200px, 0);
+  }
+  75% {
+    font-size: 120pt;
+    transform: rotate3d(200deg) translate3d(200px, 800px, 0);
+  }
+  100% {
+    color: yellow;
+    transform: scale(2) rotate3d(-300deg) translate3d(200px, 500px, 0);
+  }
+}
+.where {
+  font-size: 12pt;
+  animation: where 2s infinite;
+  transition: 350ms all ease-in;
+}
+@keyframes where {
+  0% {
+    color: pink;
+    transform: scale(2) rotate3d(-300deg) translate3d(850px, 50px, 0);
+  }
+  25% {
+    font-size: 30pt;
+    transform: scale(100) rotate(-500deg) translate3d(30px, 50px, 0px);
+  }
+  50% {
+    color: purple;
+    transform: scale(0.5) rotate(30deg) translate3d(70px, 850px, 0);
+  }
+  75% {
+    font-size: 120pt;
+    transform: rotate3d(200deg) translate3d(2000px, 30px, 0);
+  }
+  100% {
+    color: orange;
+    transform: scale(10) rotate(50deg) translate3d(0px, 700px, 300px);
+  }
+}
+.whattowear {
+  font-size: 12pt;
+  animation: whattowear 2s infinite;
+  transition: 350ms all ease-in;
+}
+@keyframes whattowear {
+  0% {
+    color: black;
+    transform: scale(20) rotate3d(0deg) translate3d(500px, 900px, 0);
+  }
+  25% {
+    font-size: 3pt;
+    transform: scale(100) rotate(-500deg) translate3d(150px, 500px, 0px);
+  }
+  50% {
+    color: gray;
+    transform: scale(0.5) rotate(30deg) translate3d(450px, 0px, 0);
+  }
+  75% {
+    font-size: 500pt;
+    transform: rotate3d(360deg) translate3d(650, 800px, 0);
+  }
+  100% {
+    color: indigo;
+    transform: scale(100) rotate(50deg) translate3d(900px, 0px, 300px);
+  }
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img.one {
+  animation: image 3s infinite;
+  transition: 500ms all ease;
+}
+img.two {
+  animation: image2 3s infinite;
+  transition: 500ms all ease;
+}
+img.three {
+  animation: image3 1s infinite;
+  transition: 500ms all ease;
+}
+img.four {
+  animation: image4 1s infinite;
+  transition: 200ms all ease;
+}
+img.five {
+  animation: image5 5s infinite;
+  transition: 1s all ease;
+}
+@keyframes image {
+  0% {
+    transform: scale(0.2) rotate3d(0deg) translate3d(50px, 90px, 0);
+  }
+  25% {
+    transform: scale(2) rotate(-500deg) translate3d(10px, 50px, 0px);
+  }
+  50% {
+    transform: scale(0.1) rotate(30deg) translate3d(40px, 0px, 0);
+  }
+  75% {
+    transform: rotate3d(360deg) translate3d(60px, 80px, 0);
+  }
+  100% {
+    transform: scale(1.5) rotate(50deg) translate3d(0px, 0px, 300px);
+  }
+}
+@keyframes image2 {
+  0% {
+    transform: scale(0.2) rotate3d(0deg) translate3d(50px, 90px, 0);
+  }
+  25% {
+    transform: scale(0.1) translate3d(10px, 0px, 0px);
+  }
+  50% {
+    transform: scale(0.5) translate3d(40px, 200px, 0);
+  }
+  75% {
+    transform: translate3d(600px, 80px, 0);
+  }
+  100% {
+    transform: scale(1) translate3d(300px, 0px, 300px);
+  }
+}
+@keyframes image3 {
+  0% {
+    transform: scale(0.2) rotate3d(0deg) translate3d(0px, 0px, 0);
+  }
+  25% {
+    transform: scale(0.1) translate3d(0px, 800px, 0px);
+  }
+  50% {
+    transform: scale(0.5) translate3d(0px, 200px, 0);
+  }
+  75% {
+    transform: translate3d(0px, 800px, 0);
+  }
+  100% {
+    transform: scale(1) translate3d(500px, 0px, 300px);
+  }
+}
+@keyframes image4 {
+  0% {
+    transform: scale(0.2) rotate3d(0deg) translate3d(80%, 0px, 0);
+  }
+  25% {
+    transform: scale(0.1) translate3d(80%, 80%, 0px);
+  }
+  50% {
+    transform: scale(1.5) translate3d(80%, 0, 0);
+  }
+  75% {
+    transform: translate3d(80%, 20%, 0);
+  }
+  100% {
+    transform: scale(0) translate3d(80%, 80%, 300px);
+  }
+}
+@keyframes image5 {
+  0% {
+    transform: scale(0.8) rotate3d(0deg) translate3d(0%, 0px, 0);
+  }
+  25% {
+    transform: scale(0.1) translate3d(100%, 0%, 0px);
+  }
+  50% {
+    transform: scale(1) translate3d(50%, 50%, 0);
+  }
+  75% {
+    transform: translate3d(100%, 30%, 0);
+  }
+  100% {
+    transform: scale(2) translate3d(0%, 100%, 300px);
+  }
+}
+
+input {
+  border: 1px solid #ccc;
+  color: #999;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -138,7 +138,6 @@ body {
     }
 }
 
-
 .whatisincluded {
     font-size: 12pt;
     animation: whatisincluded 2s infinite;
@@ -167,8 +166,9 @@ body {
         transform: scale(1) rotate(0deg) translate3d(100px, 800px, 300px);
     }
 }
+
 .whattowear {
-      font-size: 12pt;
+    font-size: 12pt;
     animation: whattowear 2s infinite;
     transition: 350ms all ease-in;
 }
@@ -195,37 +195,71 @@ body {
         transform: scale(100) rotate(50deg) translate3d(900px, 0px, 300px);
     }
 }
+
 img {
-  position: absolute;
-  top:0;
-  left:0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
 img.one {
-  animation: image 3s infinite;
-  transition: 500ms all ease;
+    animation: image 3s infinite;
+    transition: 500ms all ease;
 }
 
 img.two {
-  animation: image2 3s infinite;
-  transition: 500ms all ease;
+    animation: image2 3s infinite;
+    transition: 500ms all ease;
 }
 
 img.three {
-  animation: image3 1s infinite;
-  transition: 500ms all ease;
+    animation: image3 1s infinite;
+    transition: 500ms all ease;
 }
 
-
 img.four {
-  animation: image4 1s infinite;
-  transition: 200ms all ease;
+    animation: image4 1s infinite;
+    transition: 200ms all ease;
 }
 
 img.five {
-  animation: image5 5s infinite;
-  transition: 1s all ease;
+    animation: image5 5s infinite;
+    transition: 1s all ease;
 }
 
+img.six {
+    animation: image6 4s infinite 2s;
+    transition: 1s all ease;
+}
+
+img.seven {
+    animation: image7 4s infinite 2s;
+    transition: 1s all ease;
+}
+
+@keyframes image6 {
+    0% {
+        transform: scale(0.2) rotate3d(0deg) translate3d(0px, 0px, 0);
+    }
+    50% {
+        transform: scale(1.3) rotate(50deg) translate3d(1000px, 0px, 0px);
+    }
+    100% {
+        transform: scale(1) rotate(50deg) translate3d(1000px, 0px, 0px);
+    }
+}
+
+@keyframes image7 {
+    0% {
+        transform: scale(0.5) rotate(270deg) translate3d(100px, 0px, 0px);
+    }
+    50% {
+        transform: scale(1.3) rotate(0deg) translate3d(1500px, 400px, 0px);
+    }
+    100% {
+        transform: scale(0.2) rotate3d(0deg) translate3d(0px, 0px, 0);
+    }
+}
 
 @keyframes image {
     0% {
@@ -280,7 +314,6 @@ img.five {
         transform: scale(1) translate3d(500px, 0px, 300px);
     }
 }
-
 
 @keyframes image4 {
     0% {
